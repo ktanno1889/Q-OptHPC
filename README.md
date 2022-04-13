@@ -24,14 +24,14 @@ https://www.amd.com/ja/products/specifications/processors
 ## 線形計画法/QUBOのアイディア
 
 objective:
-max 性能
-max ノード数
+- max 性能
+- max ノード数
 
 subject to:
-合計消費電力<最大消費電力
-合計金額<予算
+- 合計消費電力<最大消費電力
+- 合計金額<予算
 
 決定変数:
-CPUの種類
-メモリの容量と枚数
-その他、選択可能な部品
+- CPUの種類
+- メモリの容量と枚数
+- その他、選択可能な部品
